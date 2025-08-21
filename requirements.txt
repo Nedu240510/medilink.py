@@ -1,12 +1,2 @@
-# Generate a basic requirements.txt based on common libraries for the provided code snippet
+streamlit
 
-requirements = """
-streamlit>=1.25.0
-"""
-
-# Save to file
-file_path = "/mnt/data/requirements.txt"
-with open(file_path, "w") as f:
-    f.write(requirements.strip())
-
-file_path
